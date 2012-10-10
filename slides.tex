@@ -1,0 +1,172 @@
+\documentclass[12pt]{beamer}
+%\documentclass[20pt,handout]{beamer}
+\usetheme{Darmstadt}
+\usepackage{graphicx}
+\usepackage[german]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\setbeamertemplate{footline}[frame number]
+
+\newcommand{\cc}[1]{\includegraphics[height=4mm]{img/#1.png}}
+\usepackage{ifthen}
+\newcommand{\license}[2][]{\\#2\ifthenelse{\equal{#1}{}}{}{\\\scriptsize\url{#1}}}
+\usepackage{textcomp}
+
+\pgfdeclareimage[height=.6cm]{c3d2logo}{./img/c3d2.pdf} 
+
+
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{main,foreground}
+\logo{\pgfputat{\pgfxy(-1,0)}{\pgfbox[center,base]{\pgfuseimage{c3d2logo}}}}
+
+
+\title{Chaos macht Schule}
+\author{\small Marius Melzer \& Stephan Thamm\\\large Chaos Computer Club Dresden}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Einleitung}
+
+\begin{frame}
+  \L Wer sind wir?
+\end{frame}
+
+\section{Problematik}
+
+\begin{frame}
+  \begin{itemize}
+    \item Jugend wächst mit neuen Medien auf ...
+    \item ... hat nicht automatisch Medienkompetenz
+    \item Von Medienkonsum zu Mediennutzung
+    \item Medienkompetenz vom Bildungssystem nicht erfasst
+\end{frame}
+
+\section{Chaos macht Schule}
+
+\begin{frame}
+  \begin{itemize}
+    \item Problemerkenntnis
+    \item keine Pädagogen, dafür Ahnung von Materie
+    \item Hackerperspektive: wir wollen "unsere" Inhalte vermitteln
+    \item Folge: CmS-Gründung in mehreren Erfas (Hamburg, Mannheim, Essen)
+    \item in Dresden seit ca. 2 Jahren
+  \end{itemize}
+\end{frame}
+
+\section{Praxis}
+
+\begin{frame}
+  \frametitle{Junghackertrack}
+  \begin{itemize}
+    \item Löten
+    \item Sicherheitsgrundlagen
+    \item Computer auseinanderbauen und verstehen
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{"Schulbesuche"}
+  \begin{itemize}
+    \item Internetgrundlagen
+    \item Datenschutz
+    \item Soziale Netzwerke
+    \item bislang u.A. in: Gymnasium Bürgerwiese, öfter in Weissig GTA, Ev. Gymnasium Erzgebirge, etc.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Veranstaltungen für Lehrer}
+  \begin{itemize}
+    \item Problembewusstsein schaffen
+    \item Methoden und Lehrmaterialen
+    \item Kontakt herstellen, Austausch
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Elternabende}
+  \begin{itemize}
+    \item Panik nehmen
+    \item Soziale Probleme nicht mit technischen Lösungen erschlagen!
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Workshops}
+  \begin{itemize}
+    \item Pentabugs (sächs. Informatikwettbewerb)
+    \item ?
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Cross-Media-Tour}
+  \begin{itemize}
+    \item Zielgruppe: 10-25-Jährige
+    \item Medienkulturzentrum, ColoRadio, TMA Hellerau, riesa efau, etc.
+    \item ...und wir!
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Andere Erfas: Medienscouts Mannheim}
+  \begin{itemize}
+    \item Polizei
+    \item Jugendamt
+    \item Stadtjugendring
+  \end{itemize}
+  Evtl. einfach nur Logo
+\end{frame}
+
+\section{Inhalte}
+
+\begin{frame}
+  \frametitle{Internetgrundlagen}
+  \begin{itemize}
+    \item Notwendig für Verständnis vieler Probleme
+    \item Bottom-up Lernen
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Grundlagen}
+  Kindernet-Visualisierung
+\end{frame}
+
+\begin{frame}
+  \frametitle{Datenschutz}
+  \begin{itemize}
+    \item \textbf{Schutz eigener Daten}
+    \item => für wieviel Geld würdest du deine Facebook-Daten verkaufen?
+    \item Kinderbook
+    \item Identity Management
+    \item \textbf{Schutz fremder Daten}
+    \item Bilder taggen, Addressbuchimport,...
+  \end{itemize}
+  TODO: Facebook-Daten-Studie heraussuchen und da haben / Zitieren könnten, möglicherweise diese Folie zweiteilen?
+\end{frame}
+
+\begin{frame}
+  \frametitle{Passwortsicherheit}
+  \begin{itemize}
+    \item (nCuAj.§Tsm!f
+    \item IchLiebeDich
+    \item .§)=")=`
+    \item 123456
+    \item alkmgfksjr
+    \item Mks?o/.u,ePsw!
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Soziale Netzwerke}
+  \begin{itemize}
+    \item Keine Anleitung zu Facebook-Einstellungen
+    \item 
+  \end{itemize}
+\end{frame}
+
+\end{document}
